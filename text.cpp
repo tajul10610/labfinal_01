@@ -36,7 +36,7 @@ TEST(IsEvenFunction, HandlesOddInput) {
 // === Main Function ===
 
 int main(int argc, char **argv) {
-    std::cout << "Running math_utils tests..." << std::endl;
+    std::cout << "Tajul is the goat" << std::endl;
     testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
 }
