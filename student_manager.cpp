@@ -26,3 +26,16 @@ public:
         }
     }
 };
+
+int main() {
+    StudentManager manager;
+
+    manager.addStudent("oyon");
+    manager.addStudent("Tajul");
+    manager.displayStudents();
+
+    manager.removeStudent("tajul");
+    manager.displayStudents();
+
+    return 0;
+}
