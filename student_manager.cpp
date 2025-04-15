@@ -18,3 +18,11 @@ public:
             }
         }
     }
+
+    void displayStudents() {
+        std::cout << "Students:\n";
+        for (const std::string& name : students) {
+            std::cout << "- " << name << "\n";
+        }
+    }
+};
