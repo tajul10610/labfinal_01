@@ -41,4 +41,11 @@ int main(int argc, char **argv) {
     return RUN_ALL_TESTS();
 }
 
+
+int main(int argc, char **argv) {
+    std::cout << "Tajul is the goat" << std::endl;
+    testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
+}
+cout << "This is an updated version!" << endl;
 // tajul is the ghost
